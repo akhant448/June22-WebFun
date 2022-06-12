@@ -1,9 +1,17 @@
-.title {
-    color: brown;
-    font-family: sans-serif;
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
-    margin: 0px auto;
 }
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: brown;
+}
+
 img.octocat {
     height: 200px;
 }
@@ -11,8 +19,8 @@ img.octocat {
 .first-row {
     background-color: cyan;
     height :250px;
-    width: 900px;
-    margin-left: 220px;
+    width: 890px;
+    margin-left: 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -21,8 +29,8 @@ img.octocat {
 .second-row {
     background-color: pink;
     height :250px;
-    width: 900px;
-    margin: 20px 0px 0px 220px;
+    width: 890px;
+    margin: 20px 0px 0px 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -30,8 +38,8 @@ img.octocat {
 
 .third-row {
     height :250px;
-    width: 900px;
-    margin: 20px 0px 0px 220px;
+    width: 890px;
+    margin: 20px 0px 0px 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
