@@ -1,0 +1,38 @@
+.title {
+    color: brown;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px auto;
+}
+img.octocat {
+    height: 200px;
+}
+
+.first-row {
+    background-color: cyan;
+    height :250px;
+    width: 900px;
+    margin-left: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second-row {
+    background-color: pink;
+    height :250px;
+    width: 900px;
+    margin: 20px 0px 0px 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.third-row {
+    height :250px;
+    width: 900px;
+    margin: 20px 0px 0px 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
