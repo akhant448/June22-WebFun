@@ -1,0 +1,29 @@
+* {
+    font-family: monospace;
+    color: white;
+    text-decoration: none;
+}
+
+div.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #333333;
+    width: 900px;
+    height: 70px;
+}
+
+ul.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+button.btn {
+    background-color: #17a2b8;
+    border: 2px solid black;
+    box-shadow: 3px 4px black;
+}
