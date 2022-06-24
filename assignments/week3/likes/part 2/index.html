@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <h2>Network</h2>
+        </div>
+    </header>
+    <main>
+        <h2 class="center-text">Your Feed</h2>
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <div class="user">
+                        <img class="user-image" src="./icons/user-circle.png" alt="user-icon">
+                        <p><a href="#">Add an avatar</a></p>
+                        <p>James Doe</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="card">
+                        <div class="left-side">
+                            <h2>Neil M</h2>
+                            <div>
+                                <ul class="right-side">
+                                    <li><span id="num1">9</span> likes</li>
+                                    <li><button class="btn" onclick="increaseLike1(this)">Like</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="left-side">
+                            <h2>Nicole K</h2>
+                            <div>
+                                <ul class="right-side">
+                                    <li><span id="num2">12</span> likes</li>
+                                    <li><button class="btn" onclick="increaseLike2(this)">Like</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Just finish my <a href="#">next comic</a>, check it out.</p>
+                        </div>
+                    </div>
+                    <div class="card3">
+                        <div class="left-side">
+                            <h2>Jim R</h2>
+                            <div>
+                                <ul class="right-side">
+                                    <li><span id="num3">9</span> likes</li>
+                                    <li><button class="btn" onclick="increaseLike3(this)">Like</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
